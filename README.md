@@ -3,10 +3,12 @@
 A clean, modern, and responsive website template built using HTML, CSS. Ideal for beginners, or small business sites.
 
 laptop Design view : 
-(images/laptop Design view.png)
+
+<img src= "images/laptop Design view.png" alt="mobile view " > 
+
 
 Mobile Design view : 
-(images/Mobile Design view.png)
+<img src= "images/Mobile Design view.png" alt="mobile view " > 
 
 ---
 
