@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left {
+    position: relative;
+    height: 100%;
+    width: 35%;
+    background-color: #fff;
+}
+
+#right {
+    height: 100%;
+    width: 65%;
+}
+
+#rtop {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+#rbottom {
+
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1516727003284-a96541e51e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    
+}
+
+#rt1 {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center ;
+}
+
+#rt2 {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1599360889420-da1afaba9edc?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+     background-position: center ;
+}
+
+#lnav {
+    padding: 20px 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#lrnav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#lrnav {
+    margin-right: 20px;
+}
+
+#lrnav i {
+    font-size: 20px;
+    color: royalblue;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#llnav i {
+    font-size: 22px;
+    text-align: center;
+}
+
+#left #lcenter {
+    position: absolute;
+    top: 38%;
+    left: 23%;
+
+
+}
+
+#lcenter h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+#lcenter p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    opacity: 0.6;
+
+}
+
+#lcenter a {
+    text-decoration: none;
+    font-size: 19px;
+    color: royalblue;
+    margin: 10px 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    opacity: 0.7;
+}
+
+#lcenter a:hover {
+    opacity: 1;
+}
+
+@media(max-width : 780px ){
+    #main{
+        flex-direction: column;
+    }
+    #left {
+        width: 100%;
+        height: 100%;
+    }
+    #left #lcenter {
+    left: 18%;
+    }
+    #right{
+        width: 100%;
+        height: 100%;
+    }
+}
