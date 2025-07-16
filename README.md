@@ -8,6 +8,7 @@ laptop Design view :
 
 
 Mobile Design view : 
+<br>
 <img src= "images/Mobile Design view.png" alt="mobile view " > 
 
 ---
